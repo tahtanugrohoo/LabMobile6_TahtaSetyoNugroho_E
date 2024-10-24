@@ -1,0 +1,7 @@
+{
+  "name": "percoba",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
