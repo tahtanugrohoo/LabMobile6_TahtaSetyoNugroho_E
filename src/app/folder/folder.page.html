@@ -16,6 +16,37 @@
 
   <div id="container">
     <strong class="capitalize">{{ folder }}</strong>
-    <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI
+        Components</a></p>
+    <div id="card">
+      <!-- <ion-card>
+        <ion-card-header>
+          <ion-card-title>Card Title</ion-card-title>
+          <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+        </ion-card-header>
+
+        <ion-card-content>
+          Here's a small text description for the card content. Nothing more, nothing less.
+        </ion-card-content>
+      </ion-card> -->
+      <ion-card>
+        <img alt="H1D022066" src="assets/img/profile.jpg" />
+        <ion-card-header>
+          <ion-card-title>Tahta Setyo Nugroho</ion-card-title>
+          <ion-card-subtitle>Card H1D022066</ion-card-subtitle>
+        </ion-card-header>
+      
+        <ion-card-content>
+          Terus berenang terus.
+        </ion-card-content>
+        <ion-datetime-button datetime="datetime"></ion-datetime-button>
+      <ion-modal [keepContentsMounted]="true">
+        <ng-template>
+          <ion-datetime id="datetime"></ion-datetime>
+        </ng-template>
+      </ion-modal>
+      </ion-card>
+    </div>
   </div>
+  
 </ion-content>
